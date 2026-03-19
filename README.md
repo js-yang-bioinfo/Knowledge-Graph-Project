@@ -25,7 +25,7 @@ Patient time-series clinical trajectories were treated like “sentences” and 
 3) Patient Similarity Analysis and Visualization
  - Similarity Calculation: Cosine similarity was computed between learned patient vectors to identify cohorts with the most similar treatment trajectories to a given patient.
  - Visualization: High-dimensional patient embeddings were visualized in 2D using t-SNE, allowing inspection of patient clustering based on clinical characteristics.
-!(./results/Patient_Embedding_t-SNE_Visualization.png)
+![Patient t-SNE Result](./results/Patient_Embedding_t-SNE_Visualization.png)
 ## 3. Tech Stack
  - Language: Python
  - Libraries: Pandas, NumPy, Gensim (Word2Vec), Scikit-learn (t-SNE, Similarity), Matplotlib
